@@ -220,7 +220,7 @@ while($i -eq 0)
 		Remove-Variable DateTimeTarget
 	} else 
 	{
-		Write-Output "Game not running"
+		#Write-Output "Game not running"
 	}
 	Remove-Variable game
 	Sleep 1

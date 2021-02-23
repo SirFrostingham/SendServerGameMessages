@@ -10,8 +10,8 @@ The server restarts on my particular Valheim server are:
 	- 4 PM
 
 ## How do I run it?
-Download it somewhere, and execute: `go_DoNotLaunchGame.cmd` or `go_LaunchGame.cmd`
-- If you have issues getting the powershell script to run, run the `go_DoNotLaunchGame.cmd` or `go_LaunchGame.cmd` script as admin.
+Download it somewhere, and execute: `go.cmd`
+- If you have issues getting the powershell script to run, run this in an admin window: `powershell Set-ExecutionPolicy RemoteSigned`
 
 
 ## Is it safe?
@@ -35,7 +35,7 @@ Notifications fire off at these times before a server restart:
 - 1 second
 
 ## How do I turn it off?
-Close the window the `go_DoNotLaunchGame.cmd` or `go_LaunchGame.cmd` script opens.
+Close the window the `go.cmd` script opens.
 
 ## Can I adust it?
 Sure! Just review the logic in the core powershell script, and comment out blocks of times you don't care about.

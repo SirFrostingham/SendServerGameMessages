@@ -5,7 +5,7 @@ This repo is for games like Valheim that do not have RCON or TELNET support yet.
 It's a notifications system to tell you if a game like Valheim is running (it's adaptable to anything). 
 
 ## Server Specfic:
-- The server restarts on my Valheim server are:
+The server restarts on my particular Valheim server are:
 	- 4 AM
 	- 4 PM
 
@@ -23,20 +23,20 @@ Very safe. It runs in an endless loop and only sends notifications near server r
 	- These sounds are probably good enough to get you to think about the server restarting...
 
 ## What is the frequency of notifications or beep sounds?
-	- Notifications fire off at these times before a server restart: 
-		- 15 minutes
-		- 10 minutes
-		- 5 minutes
-		- 2 minutes
-		- 1 minute
-		- 30 seconds
-		- 1 second
+Notifications fire off at these times before a server restart: 
+	- 15 minutes
+	- 10 minutes
+	- 5 minutes
+	- 2 minutes
+	- 1 minute
+	- 30 seconds
+	- 1 second
 
 ## How do I turn it off?
-	- Close the window the go.cmd script opens.
+Close the window the `go.cmd` script opens.
 
 ## Can I adust it?
-	- Sure! Just review the logic in the core powershell script, and comment out blocks of times you don't care about.
+Sure! Just review the logic in the core powershell script, and comment out blocks of times you don't care about.
 
 Enjoy...
 

@@ -10,20 +10,20 @@ while($i -eq 0)
 		$DateTimeNow = Get-Date 
 		
 		# TEST warning
-		$DateTimeTarget = Get-Date -Hour 15 -Minute 9 -Second 30
-		if($DateTimeNow.TimeOfDay -eq $DateTimeTarget.TimeOfDay){
-			Add-Type -AssemblyName System.Windows.Forms 
-			$global:balloon = New-Object System.Windows.Forms.NotifyIcon
-			$path = (Get-Process -id $pid).Path
-			$balloon.Icon = [System.Drawing.Icon]::ExtractAssociatedIcon($path) 
-			$balloon.BalloonTipIcon = [System.Windows.Forms.ToolTipIcon]::Warning 
-			$balloon.BalloonTipText = 'Moosemilker Valheim Server restart in 15 minutes'
-			$balloon.BalloonTipTitle = "Attention $Env:USERNAME" 
-			$balloon.Visible = $true 
-			$balloon.ShowBalloonTip(5000)
-			#make a sound
-			[console]::beep(2000, 1000)
-		}
+		# $DateTimeTarget = Get-Date -Hour 15 -Minute 9 -Second 30
+		# if($DateTimeNow.TimeOfDay -eq $DateTimeTarget.TimeOfDay){
+			# Add-Type -AssemblyName System.Windows.Forms 
+			# $global:balloon = New-Object System.Windows.Forms.NotifyIcon
+			# $path = (Get-Process -id $pid).Path
+			# $balloon.Icon = [System.Drawing.Icon]::ExtractAssociatedIcon($path) 
+			# $balloon.BalloonTipIcon = [System.Windows.Forms.ToolTipIcon]::Warning 
+			# $balloon.BalloonTipText = 'Moosemilker Valheim Server restart in 15 minutes'
+			# $balloon.BalloonTipTitle = "Attention $Env:USERNAME" 
+			# $balloon.Visible = $true 
+			# $balloon.ShowBalloonTip(5000)
+			# #make a sound
+			# [console]::beep(2000, 1000)
+		# }
 		
 		# 4am
 		# 15 minute warning

@@ -6,11 +6,14 @@ It's a notifications system to tell you if a game like Valheim is running (it's 
 
 ## Server Specfic:
 - The server restarts on my Valheim server are:
-	1. 4 AM
-	2. 4 PM
+	- 4 AM
+	- 4 PM
 
 ## How do I run it?
-Download it somewhere, and execute: go.cmd
+Download it somewhere, and execute: `go.cmd`
+
+## Is it safe?
+Very safe. It runs in an endless loop and only sends notifications near server restarts, IF the Valheim game is running.
 
 ## How will it notify me?
 1. It will send Windows notifications

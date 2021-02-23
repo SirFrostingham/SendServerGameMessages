@@ -1,3 +1,5 @@
+@echo off 
+
 REM Set PowerShell execution policy
 powershell Set-ExecutionPolicy RemoteSigned
 

@@ -1,7 +1,7 @@
 # SendServerGameMessages
 This repo is for games like Valheim that do not have RCON or TELNET support yet. It is so your players can know when the server will restart.
 
-## WTF is this?
+## What is this?
 It's a notifications system to tell you if a game like Valheim is running (it's adaptable to anything). 
 
 ## Server Specfic:
@@ -10,7 +10,9 @@ The server restarts on my particular Valheim server are:
 	- 4 PM
 
 ## How do I run it?
-Download it somewhere, and execute: `go.cmd`
+Download it somewhere, and execute: `go_DoNotLaunchGame.cmd` or `go_LaunchGame.cmd`
+- If you have issues getting the powershell script to run, run the `go_DoNotLaunchGame.cmd` or `go_LaunchGame.cmd` script as admin.
+
 
 ## Is it safe?
 Very safe. It runs in an endless loop and only sends notifications near server restarts, IF the Valheim game is running.
@@ -33,7 +35,7 @@ Notifications fire off at these times before a server restart:
 - 1 second
 
 ## How do I turn it off?
-Close the window the `go.cmd` script opens.
+Close the window the `go_DoNotLaunchGame.cmd` or `go_LaunchGame.cmd` script opens.
 
 ## Can I adust it?
 Sure! Just review the logic in the core powershell script, and comment out blocks of times you don't care about.

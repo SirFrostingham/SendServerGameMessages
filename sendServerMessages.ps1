@@ -17,7 +17,7 @@ while($i -eq 0)
 			# $path = (Get-Process -id $pid).Path
 			# $balloon.Icon = [System.Drawing.Icon]::ExtractAssociatedIcon($path) 
 			# $balloon.BalloonTipIcon = [System.Windows.Forms.ToolTipIcon]::Warning 
-			# $balloon.BalloonTipText = 'Moosemilker Valheim Server restart in 15 minutes'
+			# $balloon.BalloonTipText = 'Valheim Server restart in 15 minutes'
 			# $balloon.BalloonTipTitle = "Attention $Env:USERNAME" 
 			# $balloon.Visible = $true 
 			# $balloon.ShowBalloonTip(5000)
@@ -34,7 +34,7 @@ while($i -eq 0)
 			$path = (Get-Process -id $pid).Path
 			$balloon.Icon = [System.Drawing.Icon]::ExtractAssociatedIcon($path) 
 			$balloon.BalloonTipIcon = [System.Windows.Forms.ToolTipIcon]::Warning 
-			$balloon.BalloonTipText = 'Moosemilker Valheim Server restart in 15 minutes'
+			$balloon.BalloonTipText = 'Valheim Server restart in 15 minutes'
 			$balloon.BalloonTipTitle = "Attention $Env:USERNAME" 
 			$balloon.Visible = $true 
 			$balloon.ShowBalloonTip(5000)
@@ -50,7 +50,7 @@ while($i -eq 0)
 			$path = (Get-Process -id $pid).Path
 			$balloon.Icon = [System.Drawing.Icon]::ExtractAssociatedIcon($path) 
 			$balloon.BalloonTipIcon = [System.Windows.Forms.ToolTipIcon]::Warning 
-			$balloon.BalloonTipText = 'Moosemilker Valheim Server restart in 10 minutes'
+			$balloon.BalloonTipText = 'Valheim Server restart in 10 minutes'
 			$balloon.BalloonTipTitle = "Attention $Env:USERNAME" 
 			$balloon.Visible = $true 
 			$balloon.ShowBalloonTip(5000)
@@ -66,7 +66,7 @@ while($i -eq 0)
 			$path = (Get-Process -id $pid).Path
 			$balloon.Icon = [System.Drawing.Icon]::ExtractAssociatedIcon($path) 
 			$balloon.BalloonTipIcon = [System.Windows.Forms.ToolTipIcon]::Warning 
-			$balloon.BalloonTipText = 'Moosemilker Valheim Server restart in 5 minutes'
+			$balloon.BalloonTipText = 'Valheim Server restart in 5 minutes'
 			$balloon.BalloonTipTitle = "Attention $Env:USERNAME" 
 			$balloon.Visible = $true 
 			$balloon.ShowBalloonTip(5000)
@@ -82,7 +82,7 @@ while($i -eq 0)
 			$path = (Get-Process -id $pid).Path
 			$balloon.Icon = [System.Drawing.Icon]::ExtractAssociatedIcon($path) 
 			$balloon.BalloonTipIcon = [System.Windows.Forms.ToolTipIcon]::Warning 
-			$balloon.BalloonTipText = 'Moosemilker Valheim Server restart in 2 minutes'
+			$balloon.BalloonTipText = 'Valheim Server restart in 2 minutes'
 			$balloon.BalloonTipTitle = "Attention $Env:USERNAME" 
 			$balloon.Visible = $true 
 			$balloon.ShowBalloonTip(5000)
@@ -98,7 +98,7 @@ while($i -eq 0)
 			$path = (Get-Process -id $pid).Path
 			$balloon.Icon = [System.Drawing.Icon]::ExtractAssociatedIcon($path) 
 			$balloon.BalloonTipIcon = [System.Windows.Forms.ToolTipIcon]::Warning 
-			$balloon.BalloonTipText = 'Moosemilker Valheim Server restart in 30 seconds'
+			$balloon.BalloonTipText = 'Valheim Server restart in 30 seconds'
 			$balloon.BalloonTipTitle = "Attention $Env:USERNAME" 
 			$balloon.Visible = $true 
 			$balloon.ShowBalloonTip(5000)
@@ -114,7 +114,7 @@ while($i -eq 0)
 			$path = (Get-Process -id $pid).Path
 			$balloon.Icon = [System.Drawing.Icon]::ExtractAssociatedIcon($path) 
 			$balloon.BalloonTipIcon = [System.Windows.Forms.ToolTipIcon]::Warning 
-			$balloon.BalloonTipText = 'Moosemilker Valheim Server restarting'
+			$balloon.BalloonTipText = 'Valheim Server restarting'
 			$balloon.BalloonTipTitle = "Attention $Env:USERNAME" 
 			$balloon.Visible = $true 
 			$balloon.ShowBalloonTip(5000)
@@ -129,7 +129,7 @@ while($i -eq 0)
 			$path = (Get-Process -id $pid).Path
 			$balloon.Icon = [System.Drawing.Icon]::ExtractAssociatedIcon($path) 
 			$balloon.BalloonTipIcon = [System.Windows.Forms.ToolTipIcon]::Warning 
-			$balloon.BalloonTipText = 'Moosemilker Valheim Server restart in 15 minutes'
+			$balloon.BalloonTipText = 'Valheim Server restart in 15 minutes'
 			$balloon.BalloonTipTitle = "Attention $Env:USERNAME" 
 			$balloon.Visible = $true 
 			$balloon.ShowBalloonTip(5000)
@@ -145,7 +145,7 @@ while($i -eq 0)
 			$path = (Get-Process -id $pid).Path
 			$balloon.Icon = [System.Drawing.Icon]::ExtractAssociatedIcon($path) 
 			$balloon.BalloonTipIcon = [System.Windows.Forms.ToolTipIcon]::Warning 
-			$balloon.BalloonTipText = 'Moosemilker Valheim Server restart in 10 minutes'
+			$balloon.BalloonTipText = 'Valheim Server restart in 10 minutes'
 			$balloon.BalloonTipTitle = "Attention $Env:USERNAME" 
 			$balloon.Visible = $true 
 			$balloon.ShowBalloonTip(5000)
@@ -161,7 +161,7 @@ while($i -eq 0)
 			$path = (Get-Process -id $pid).Path
 			$balloon.Icon = [System.Drawing.Icon]::ExtractAssociatedIcon($path) 
 			$balloon.BalloonTipIcon = [System.Windows.Forms.ToolTipIcon]::Warning 
-			$balloon.BalloonTipText = 'Moosemilker Valheim Server restart in 5 minutes'
+			$balloon.BalloonTipText = 'Valheim Server restart in 5 minutes'
 			$balloon.BalloonTipTitle = "Attention $Env:USERNAME" 
 			$balloon.Visible = $true 
 			$balloon.ShowBalloonTip(5000)
@@ -175,7 +175,7 @@ while($i -eq 0)
 			$path = (Get-Process -id $pid).Path
 			$balloon.Icon = [System.Drawing.Icon]::ExtractAssociatedIcon($path) 
 			$balloon.BalloonTipIcon = [System.Windows.Forms.ToolTipIcon]::Warning 
-			$balloon.BalloonTipText = 'Moosemilker Valheim Server restart in 2 minutes'
+			$balloon.BalloonTipText = 'Valheim Server restart in 2 minutes'
 			$balloon.BalloonTipTitle = "Attention $Env:USERNAME" 
 			$balloon.Visible = $true 
 			$balloon.ShowBalloonTip(5000)
@@ -191,7 +191,7 @@ while($i -eq 0)
 			$path = (Get-Process -id $pid).Path
 			$balloon.Icon = [System.Drawing.Icon]::ExtractAssociatedIcon($path) 
 			$balloon.BalloonTipIcon = [System.Windows.Forms.ToolTipIcon]::Warning 
-			$balloon.BalloonTipText = 'Moosemilker Valheim Server restart in 30 seconds'
+			$balloon.BalloonTipText = 'Valheim Server restart in 30 seconds'
 			$balloon.BalloonTipTitle = "Attention $Env:USERNAME" 
 			$balloon.Visible = $true 
 			$balloon.ShowBalloonTip(5000)
@@ -207,7 +207,7 @@ while($i -eq 0)
 			$path = (Get-Process -id $pid).Path
 			$balloon.Icon = [System.Drawing.Icon]::ExtractAssociatedIcon($path) 
 			$balloon.BalloonTipIcon = [System.Windows.Forms.ToolTipIcon]::Warning 
-			$balloon.BalloonTipText = 'Moosemilker Valheim Server restarting'
+			$balloon.BalloonTipText = 'Valheim Server restarting'
 			$balloon.BalloonTipTitle = "Attention $Env:USERNAME" 
 			$balloon.Visible = $true 
 			$balloon.ShowBalloonTip(5000)
